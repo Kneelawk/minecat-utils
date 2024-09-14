@@ -8,5 +8,5 @@
     "defaultRequire": 1
   },
   "client": [ ],
-  "mixins": [ "Mixin_ReloadableResourceManager" ]
+  "mixins": [ "Mixin_ReloadableResourceManager", "Mixin_SimpleCriterionTrigger" ]
 }
