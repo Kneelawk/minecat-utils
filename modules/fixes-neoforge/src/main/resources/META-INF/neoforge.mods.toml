@@ -5,6 +5,9 @@ license = "MIT"
 [[mixins]]
 config = "minecat_utils_fixes.xplat.mixins.json"
 
+[[mixins]]
+config = "minecat_utils_fixes.neoforge.mixins.json"
+
 [[mods]]
 modId = "${mod_id}"
 version = "${version}"

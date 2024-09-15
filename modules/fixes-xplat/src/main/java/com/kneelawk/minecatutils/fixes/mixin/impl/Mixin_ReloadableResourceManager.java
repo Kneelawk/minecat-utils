@@ -16,6 +16,7 @@ import net.minecraft.server.packs.resources.ReloadableResourceManager;
 
 import com.kneelawk.minecatutils.fixes.BlockingConcurrentIterationArrayList;
 
+// Fix #1 - Sets listeners to use the thread-save impl.
 @Mixin(ReloadableResourceManager.class)
 public class Mixin_ReloadableResourceManager {
     @Mutable

@@ -13,6 +13,7 @@ import net.minecraft.advancements.CriterionTrigger;
 import net.minecraft.advancements.critereon.SimpleCriterionTrigger;
 import net.minecraft.server.PlayerAdvancements;
 
+// Fix #2 - Makes the criterion trigger use LinkedHashMaps.
 @Mixin(SimpleCriterionTrigger.class)
 public class Mixin_SimpleCriterionTrigger {
     @Inject(method = "lambda$addPlayerListener$0", at = @At("RETURN"), cancellable = true)
