@@ -60,3 +60,7 @@ val neoforge = true
 module(xplat, "fixes-xplat")
 module(fabric, "fixes-fabric")
 module(neoforge, "fixes-neoforge")
+
+module(xplat, "changes-xplat")
+module(fabric, "changes-fabric")
+module(neoforge, "changes-neoforge")

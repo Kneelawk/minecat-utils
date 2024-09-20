@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "Minecat Utils: Changes",
+  "description": "Changes for the Minecat modpack.",
+  "authors": [
+    "Kneelawk"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Kneelawk/minecat-utils",
+    "issues": "https://github.com/Kneelawk/minecat-utils/issues",
+    "sources": "https://github.com/Kneelawk/minecat-utils"
+  },
+  "license": "MIT",
+  "icon": "assets/${mod_id}/icon.png",
+  "environment": "client",
+  "entrypoints": { },
+  "mixins": [
+    "minecat_utils_changes.xplat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.21- <1.22-",
+    "java": ">=17"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [ "library" ],
+      "parent": {
+        "id": "minecat_utils",
+        "name": "Minecat Utils",
+        "description": "Minecraft Utilities for the Minecat Modpack.",
+        "icon": "assets/${mod_id}/icon.png",
+        "badges": [ "library" ]
+      }
+    }
+  }
+}
