@@ -12,3 +12,12 @@ submodule {
 kpublish {
     createPublication()
 }
+
+loom {
+    runs {
+        named("client") {
+            ideConfigGenerated(true)
+            vmArgs("-Dmixin.debug.export=true")
+        }
+    }
+}

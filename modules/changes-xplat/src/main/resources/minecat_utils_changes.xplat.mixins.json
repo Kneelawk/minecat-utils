@@ -8,5 +8,5 @@
     "defaultRequire": 1
   },
   "client": [ ],
-  "mixins": [ "Mixin_Level" ]
+  "mixins": [ "Mixin_EndDragonFight", "Mixin_Level" ]
 }
