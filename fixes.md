@@ -14,3 +14,4 @@ This is a list of the fixes provided by the fixes module(s):
     * This was fixed by capping the value returned by `ClientHooks.getGuiFarPlane()` to 31000 when setting up the
       model-view matrix in the `GameRenderer`.
     * An effort was also made to prevent modded HUD items from falling off the GUI planes.
+    * This fix is no longer needed, as an update in Xaero's Minimap has fixed the issue.
